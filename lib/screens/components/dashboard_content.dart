@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:beigam_desktop/constants/constants.dart';
 import 'package:beigam_desktop/constants/responsive.dart';
 import 'package:beigam_desktop/screens/components/analytic_cards.dart';
-import 'package:beigam_desktop/screens/components/custom_appbar.dart';
 import 'package:beigam_desktop/screens/components/top_referals.dart';
 import 'package:beigam_desktop/screens/components/users.dart';
 import 'package:beigam_desktop/screens/components/users_by_device.dart';
@@ -21,7 +20,6 @@ class DashboardContent extends StatelessWidget {
         padding: EdgeInsets.all(appPadding),
         child: Column(
           children: [
-            CustomAppbar(),
             SizedBox(
               height: appPadding,
             ),
